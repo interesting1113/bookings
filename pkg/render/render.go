@@ -1,4 +1,4 @@
-package main
+package render
 
 import (
 	"fmt"
@@ -13,5 +13,4 @@ func RenderTemplate(w http.ResponseWriter, tmpl string) {
 		fmt.Println("error parsing template:", err)
 		return
 	}
-
 }
